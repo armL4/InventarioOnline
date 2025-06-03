@@ -25,6 +25,22 @@ Configurar la base de datos SQL.
 npm run dev
 Acceder a la interfaz en http://localhost:3000.
 
+✅ Gestión de productos
+Agregar, editar y eliminar productos en el inventario.
+Visualización de detalles como nombre, cantidad y descripción.
+
+✅ Interfaz intuitiva
+Diseñada con HTML, CSS y JavaScript.
+Diseño adaptable para diferentes dispositivos.
+
+✅ API con Node.js y Express
+Conexión entre la base de datos y la interfaz.
+Endpoints para acceder y modificar datos.
+
+✅ Sincronización con GitHub
+Código organizado y versionado correctamente.
+
+
 ### 🔧 Mejoras Futuras  
 - Implementación de autenticación de usuarios con JWT.  
 - Optimización de consultas SQL para mejorar el rendimiento.  
