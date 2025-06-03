@@ -1,0 +1,20 @@
+{
+  "name": "entrega-tp2",
+  "version": "1.0.0",
+  "description": "CRUD de productos con Express y archivo JSON",
+  "main": "backend/server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.mjs",
+    "dev": "nodemon backend/server.mjs"
+  },
+  "author": "William Armando Sánchez Ariza",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

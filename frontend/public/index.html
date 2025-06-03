@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Productos</h1>
+        <div class="contenido">
+            <div class="controles">
+                <div class="linea">
+                    <button onclick="cargarProductos()">Cargar Todos</button>
+                    <input type="number" id="buscarId" placeholder="Buscar por ID">
+                    <button onclick="buscarProducto()">Buscar</button>
+                </div>
+                <h2>Agregar Producto</h2>
+                <div class="input-group">
+                    <input id="nombre" placeholder="Nombre">
+                    <input id="marca" placeholder="Marca">
+                </div>
+                <div class="input-group">
+                    <input id="precio" type="number" placeholder="Precio">
+                    <input id="stock" type="number" placeholder="Stock">
+                </div>
+                <button onclick="agregarProducto()">Agregar</button>
+
+                <h2>Modificar Producto</h2>
+                <div class="input-group">
+                    <input id="mod-id" type="number" placeholder="ID a modificar">
+                    <input id="mod-nombre" placeholder="Nuevo Nombre">
+                </div>
+                <div class="input-group">
+                    <input id="mod-marca" placeholder="Nueva Marca">
+                    <input id="mod-precio" type="number" placeholder="Nuevo Precio">
+                </div>
+                <div class="input-group">
+                    <input id="mod-stock" type="number" placeholder="Nuevo Stock">
+                </div>
+                <button onclick="modificarProducto()">Modificar</button>
+            
+                <h2>Eliminar Producto</h2>
+                <input id="del-id" type="number" placeholder="ID a eliminar">
+                <button onclick="eliminarProducto()">Eliminar</button>
+            </div>
+            <div class="tarjetas-container" id="resultado"></div>
+        </div>
+    </div>
+    <script src="/js/main.js"></script> 
+</body>
+
+
+</html>
